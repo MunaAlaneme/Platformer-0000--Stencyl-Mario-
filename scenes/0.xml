@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene
+    depth="1"
+    desc=""
+    eventsnippetid="0"
+    extheight="1984"
+    extwidth="11744"
+    extx="-32"
+    exty="-32"
+    format="4.0.1"
+    gravx="-0.0"
+    gravy="85.0"
+    height="1920"
+    id="0"
+    name="Level00000000001"
+    revision=""
+    savecount="0"
+    tiled="1"
+    tileh="32"
+    tilew="32"
+    type="standard"
+    width="11680">
+    <layers>
+        <color-bg blue="128" green="128" red="0"/>
+        <layer
+            blendMode="normal"
+            color="100,168,234"
+            id="0"
+            locked="false"
+            name="Layer 0"
+            opacity="100"
+            order="0"
+            scrollFactorX="1.0"
+            scrollFactorY="1.0"
+            visible="true"/>
+    </layers>
+    <joints/>
+    <regions>
+        <region
+            b="64"
+            g="64"
+            h="262"
+            id="0"
+            name="Region 0"
+            pts="4,0.0,0.0,0.0,262.0,350.0,262.0,350.0,0.0"
+            r="64"
+            type="box"
+            w="350"
+            x="1057"
+            y="1529"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor
+            a="0.0"
+            aid="1"
+            c="false"
+            group="0"
+            id="6"
+            name="Player 1"
+            order="0"
+            sx="1.0"
+            sy="1.0"
+            x="8"
+            y="1707"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="7"
+            c="false"
+            group="3"
+            id="23"
+            name="CoinGUI 7"
+            order="1"
+            sx="1.0"
+            sy="1.0"
+            x="0"
+            y="48"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="8"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 8"
+            order="2"
+            sx="1.0"
+            sy="1.0"
+            x="160"
+            y="1760"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="9"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 9"
+            order="3"
+            sx="1.0"
+            sy="1.0"
+            x="208"
+            y="1744"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="10"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 10"
+            order="4"
+            sx="1.0"
+            sy="1.0"
+            x="256"
+            y="1760"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="11"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 11"
+            order="5"
+            sx="1.0"
+            sy="1.0"
+            x="320"
+            y="1696"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="12"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 12"
+            order="6"
+            sx="1.0"
+            sy="1.0"
+            x="352"
+            y="1744"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="13"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 13"
+            order="7"
+            sx="1.0"
+            sy="1.0"
+            x="320"
+            y="1776"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="14"
+            c="false"
+            group="4"
+            id="25"
+            name="CoinCollectible2x 14"
+            order="8"
+            sx="1.0"
+            sy="1.0"
+            x="384"
+            y="1760"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="15"
+            c="false"
+            group="4"
+            id="25"
+            name="CoinCollectible2x 15"
+            order="9"
+            sx="1.0"
+            sy="1.0"
+            x="448"
+            y="1728"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="16"
+            c="false"
+            group="4"
+            id="25"
+            name="CoinCollectible2x 16"
+            order="10"
+            sx="1.0"
+            sy="1.0"
+            x="96"
+            y="1760"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="17"
+            c="false"
+            group="4"
+            id="25"
+            name="CoinCollectible2x 17"
+            order="11"
+            sx="1.0"
+            sy="1.0"
+            x="512"
+            y="1664"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="18"
+            c="false"
+            group="4"
+            id="25"
+            name="CoinCollectible2x 18"
+            order="12"
+            sx="1.0"
+            sy="1.0"
+            x="576"
+            y="1760"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="19"
+            c="false"
+            group="4"
+            id="25"
+            name="CoinCollectible2x 19"
+            order="13"
+            sx="1.0"
+            sy="1.0"
+            x="800"
+            y="1664"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="20"
+            c="false"
+            group="4"
+            id="30"
+            name="CoinCollectible4x 20"
+            order="14"
+            sx="1.0"
+            sy="1.0"
+            x="832"
+            y="1568"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="21"
+            c="false"
+            group="3"
+            id="23"
+            name="CoinGUI 21"
+            order="15"
+            sx="1.0"
+            sy="1.0"
+            x="1152"
+            y="1568"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="22"
+            c="false"
+            group="3"
+            id="23"
+            name="CoinGUI 22"
+            order="16"
+            sx="1.0"
+            sy="1.0"
+            x="1280"
+            y="1568"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="23"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 23"
+            order="17"
+            sx="1.0"
+            sy="1.0"
+            x="1152"
+            y="1648"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="24"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 24"
+            order="18"
+            sx="1.0"
+            sy="1.0"
+            x="1152"
+            y="1664"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="25"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 25"
+            order="19"
+            sx="1.0"
+            sy="1.0"
+            x="1168"
+            y="1664"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="26"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 26"
+            order="20"
+            sx="1.0"
+            sy="1.0"
+            x="1184"
+            y="1680"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="27"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 27"
+            order="21"
+            sx="1.0"
+            sy="1.0"
+            x="1200"
+            y="1680"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="28"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 28"
+            order="22"
+            sx="1.0"
+            sy="1.0"
+            x="1200"
+            y="1696"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="29"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 29"
+            order="23"
+            sx="1.0"
+            sy="1.0"
+            x="1216"
+            y="1696"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="30"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 30"
+            order="24"
+            sx="1.0"
+            sy="1.0"
+            x="1232"
+            y="1696"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="31"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 31"
+            order="25"
+            sx="1.0"
+            sy="1.0"
+            x="1248"
+            y="1696"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="32"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 32"
+            order="26"
+            sx="1.0"
+            sy="1.0"
+            x="1264"
+            y="1696"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="33"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 33"
+            order="27"
+            sx="1.0"
+            sy="1.0"
+            x="1280"
+            y="1696"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="34"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 34"
+            order="28"
+            sx="1.0"
+            sy="1.0"
+            x="1296"
+            y="1696"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="35"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 35"
+            order="29"
+            sx="1.0"
+            sy="1.0"
+            x="1296"
+            y="1680"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="36"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 36"
+            order="30"
+            sx="1.0"
+            sy="1.0"
+            x="1312"
+            y="1680"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="37"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 37"
+            order="31"
+            sx="1.0"
+            sy="1.0"
+            x="1312"
+            y="1664"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="38"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 38"
+            order="32"
+            sx="1.0"
+            sy="1.0"
+            x="1312"
+            y="1648"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="39"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 39"
+            order="33"
+            sx="1.0"
+            sy="1.0"
+            x="1328"
+            y="1648"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="40"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 40"
+            order="34"
+            sx="1.0"
+            sy="1.0"
+            x="1328"
+            y="1632"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="41"
+            c="false"
+            group="4"
+            id="20"
+            name="CoinCollectible1x 41"
+            order="35"
+            sx="1.0"
+            sy="1.0"
+            x="1136"
+            y="1632"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="42"
+            c="false"
+            group="4"
+            id="25"
+            name="CoinCollectible2x 42"
+            order="36"
+            sx="1.0"
+            sy="1.0"
+            x="1120"
+            y="1568"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="43"
+            c="false"
+            group="4"
+            id="25"
+            name="CoinCollectible2x 43"
+            order="37"
+            sx="1.0"
+            sy="1.0"
+            x="1120"
+            y="1536"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="44"
+            c="false"
+            group="4"
+            id="25"
+            name="CoinCollectible2x 44"
+            order="38"
+            sx="1.0"
+            sy="1.0"
+            x="1152"
+            y="1536"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="45"
+            c="false"
+            group="4"
+            id="25"
+            name="CoinCollectible2x 45"
+            order="39"
+            sx="1.0"
+            sy="1.0"
+            x="1184"
+            y="1536"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="46"
+            c="false"
+            group="4"
+            id="25"
+            name="CoinCollectible2x 46"
+            order="40"
+            sx="1.0"
+            sy="1.0"
+            x="1280"
+            y="1536"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="47"
+            c="false"
+            group="4"
+            id="25"
+            name="CoinCollectible2x 47"
+            order="41"
+            sx="1.0"
+            sy="1.0"
+            x="1312"
+            y="1536"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="48"
+            c="false"
+            group="4"
+            id="25"
+            name="CoinCollectible2x 48"
+            order="42"
+            sx="1.0"
+            sy="1.0"
+            x="1344"
+            y="1536"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="49"
+            c="false"
+            group="4"
+            id="25"
+            name="CoinCollectible2x 49"
+            order="43"
+            sx="1.0"
+            sy="1.0"
+            x="1344"
+            y="1568"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="50"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 50"
+            order="44"
+            sx="1.0"
+            sy="1.0"
+            x="1538"
+            y="1612"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="51"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 51"
+            order="45"
+            sx="1.0"
+            sy="1.0"
+            x="1591"
+            y="1593"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="52"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 52"
+            order="46"
+            sx="1.0"
+            sy="1.0"
+            x="1566"
+            y="1621"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="53"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 53"
+            order="47"
+            sx="1.0"
+            sy="1.0"
+            x="1534"
+            y="1578"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="54"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 54"
+            order="48"
+            sx="1.0"
+            sy="1.0"
+            x="1582"
+            y="1560"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="55"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 55"
+            order="49"
+            sx="1.0"
+            sy="1.0"
+            x="2327"
+            y="1828"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="56"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 56"
+            order="50"
+            sx="1.0"
+            sy="1.0"
+            x="2708"
+            y="1841"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="57"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 57"
+            order="51"
+            sx="1.0"
+            sy="1.0"
+            x="3413"
+            y="1636"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="58"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 58"
+            order="52"
+            sx="1.0"
+            sy="1.0"
+            x="4154"
+            y="1434"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="59"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 59"
+            order="53"
+            sx="1.0"
+            sy="1.0"
+            x="4183"
+            y="1324"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="60"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 60"
+            order="54"
+            sx="1.0"
+            sy="1.0"
+            x="4529"
+            y="1199"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="61"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 61"
+            order="55"
+            sx="1.0"
+            sy="1.0"
+            x="4987"
+            y="936"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="62"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 62"
+            order="56"
+            sx="1.0"
+            sy="1.0"
+            x="6013"
+            y="1767"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="63"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 63"
+            order="57"
+            sx="1.0"
+            sy="1.0"
+            x="6391"
+            y="1733"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="64"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 64"
+            order="58"
+            sx="1.0"
+            sy="1.0"
+            x="5965"
+            y="1695"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="65"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 65"
+            order="59"
+            sx="1.0"
+            sy="1.0"
+            x="5942"
+            y="1633"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="66"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 66"
+            order="60"
+            sx="1.0"
+            sy="1.0"
+            x="5929"
+            y="1571"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="67"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 67"
+            order="61"
+            sx="1.0"
+            sy="1.0"
+            x="5903"
+            y="1520"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="68"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 68"
+            order="62"
+            sx="1.0"
+            sy="1.0"
+            x="5883"
+            y="1472"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="69"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 69"
+            order="63"
+            sx="1.0"
+            sy="1.0"
+            x="5864"
+            y="1424"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="70"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 70"
+            order="64"
+            sx="1.0"
+            sy="1.0"
+            x="5847"
+            y="1368"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="71"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 71"
+            order="65"
+            sx="1.0"
+            sy="1.0"
+            x="5819"
+            y="1298"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="72"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 72"
+            order="66"
+            sx="1.0"
+            sy="1.0"
+            x="5809"
+            y="1247"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="73"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 73"
+            order="67"
+            sx="1.0"
+            sy="1.0"
+            x="5795"
+            y="1200"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="74"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 74"
+            order="68"
+            sx="1.0"
+            sy="1.0"
+            x="5770"
+            y="1149"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="75"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 75"
+            order="69"
+            sx="1.0"
+            sy="1.0"
+            x="5753"
+            y="1100"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="76"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 76"
+            order="70"
+            sx="1.0"
+            sy="1.0"
+            x="5734"
+            y="1034"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="77"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 77"
+            order="71"
+            sx="1.0"
+            sy="1.0"
+            x="5722"
+            y="984"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="78"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 78"
+            order="72"
+            sx="1.0"
+            sy="1.0"
+            x="5717"
+            y="932"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="79"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 79"
+            order="73"
+            sx="1.0"
+            sy="1.0"
+            x="5719"
+            y="868"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="80"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 80"
+            order="74"
+            sx="1.0"
+            sy="1.0"
+            x="5703"
+            y="819"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="81"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 81"
+            order="75"
+            sx="1.0"
+            sy="1.0"
+            x="5669"
+            y="770"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="82"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 82"
+            order="76"
+            sx="1.0"
+            sy="1.0"
+            x="5648"
+            y="721"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="83"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 83"
+            order="77"
+            sx="1.0"
+            sy="1.0"
+            x="5634"
+            y="672"
+            z="0"/>
+        <actor
+            a="0.0"
+            aid="84"
+            c="false"
+            group="4"
+            id="28"
+            name="CoinCollectible3x 84"
+            order="78"
+            sx="1.0"
+            sy="1.0"
+            x="5611"
+            y="624"
+            z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="4">
+            <prop id="1" list="0" val="0.0"/>
+            <prop id="2" list="0" val="true"/>
+            <prop id="3" list="0" val="0"/>
+        </s>
+    </snippets>
+    <terrain>
+        <p pts="40,1408.0,352.0,1408.0,224.0,1184.0,224.0,1184.0,192.0,1152.0,192.0,1152.0,224.0,992.0,224.0,992.0,192.0,1024.0,192.0,1024.0,160.0,1056.0,160.0,1056.0,128.0,1088.0,128.0,1088.0,96.0,1056.0,96.0,1056.0,64.0,1024.0,64.0,1024.0,32.0,992.0,32.0,992.0,0.0,928.0,0.0,928.0,32.0,896.0,32.0,896.0,64.0,864.0,64.0,864.0,96.0,832.0,96.0,832.0,128.0,800.0,128.0,800.0,160.0,768.0,160.0,768.0,192.0,736.0,192.0,736.0,224.0,576.0,224.0,576.0,128.0,480.0,128.0,480.0,224.0,0.0,224.0,0.0,352.0" x="0.0" y="1568.0"/>
+        <p pts="4,32.0,0.0,0.0,0.0,0.0,32.0,32.0,32.0" x="6400.0" y="1792.0"/>
+        <p pts="74,1472.0,320.0,1472.0,352.0,1440.0,352.0,1440.0,384.0,1408.0,384.0,1408.0,448.0,1376.0,448.0,1376.0,480.0,1280.0,480.0,1280.0,576.0,992.0,576.0,992.0,608.0,960.0,608.0,960.0,736.0,576.0,736.0,576.0,832.0,224.0,832.0,224.0,928.0,192.0,928.0,192.0,896.0,96.0,896.0,96.0,928.0,0.0,928.0,0.0,960.0,576.0,960.0,576.0,896.0,992.0,896.0,992.0,800.0,1280.0,800.0,1280.0,672.0,1376.0,672.0,1376.0,512.0,1408.0,512.0,1408.0,480.0,1440.0,480.0,1440.0,416.0,1472.0,416.0,1472.0,384.0,1504.0,384.0,1504.0,352.0,1536.0,352.0,1536.0,384.0,1664.0,384.0,1664.0,352.0,1696.0,352.0,1696.0,288.0,1728.0,288.0,1728.0,256.0,1824.0,256.0,1824.0,128.0,1856.0,128.0,1856.0,64.0,1952.0,64.0,1952.0,32.0,1984.0,32.0,1984.0,0.0,1920.0,0.0,1920.0,32.0,1824.0,32.0,1824.0,96.0,1792.0,96.0,1792.0,224.0,1760.0,224.0,1760.0,192.0,1728.0,192.0,1728.0,224.0,1696.0,224.0,1696.0,256.0,1664.0,256.0,1664.0,320.0,1632.0,320.0,1632.0,352.0,1568.0,352.0,1568.0,320.0" x="3232.0" y="768.0"/>
+        <p pts="12,128.0,192.0,128.0,128.0,96.0,128.0,96.0,160.0,32.0,160.0,32.0,96.0,64.0,96.0,64.0,64.0,32.0,64.0,32.0,0.0,0.0,0.0,0.0,192.0" x="1408.0" y="1568.0"/>
+        <p pts="4,64.0,32.0,64.0,0.0,0.0,0.0,0.0,32.0" x="1632.0" y="1632.0"/>
+        <p pts="4,0.0,32.0,64.0,32.0,64.0,0.0,0.0,0.0" x="1888.0" y="1536.0"/>
+        <p pts="4,128.0,32.0,128.0,0.0,0.0,0.0,0.0,32.0" x="2112.0" y="1440.0"/>
+        <p pts="4,128.0,32.0,128.0,0.0,0.0,0.0,0.0,32.0" x="5568.0" y="928.0"/>
+        <p pts="4,96.0,0.0,0.0,0.0,0.0,32.0,96.0,32.0" x="1792.0" y="1568.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,416.0,32.0,416.0,0.0" x="2336.0" y="1504.0"/>
+        <p pts="4,32.0,32.0,32.0,0.0,0.0,0.0,0.0,32.0" x="3008.0" y="1664.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,64.0,32.0,64.0,0.0" x="3040.0" y="1632.0"/>
+        <p pts="6,0.0,64.0,64.0,64.0,64.0,0.0,32.0,0.0,32.0,32.0,0.0,32.0" x="1216.0" y="1344.0"/>
+        <p pts="4,32.0,0.0,0.0,0.0,0.0,32.0,32.0,32.0" x="1184.0" y="1408.0"/>
+        <p pts="4,32.0,32.0,32.0,0.0,0.0,0.0,0.0,32.0" x="2528.0" y="1760.0"/>
+        <p pts="4,64.0,0.0,0.0,0.0,0.0,32.0,64.0,32.0" x="2944.0" y="1696.0"/>
+        <p pts="4,96.0,32.0,96.0,0.0,0.0,0.0,0.0,32.0" x="5504.0" y="576.0"/>
+        <p pts="4,96.0,0.0,0.0,0.0,0.0,32.0,96.0,32.0" x="1536.0" y="1664.0"/>
+        <p pts="4,64.0,0.0,0.0,0.0,0.0,32.0,64.0,32.0" x="2048.0" y="1472.0"/>
+        <p pts="4,32.0,0.0,0.0,0.0,0.0,64.0,32.0,64.0" x="1376.0" y="1440.0"/>
+        <p pts="6,64.0,0.0,0.0,0.0,0.0,64.0,32.0,64.0,32.0,32.0,64.0,32.0" x="1120.0" y="1440.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,160.0,32.0,160.0,0.0" x="5728.0" y="1536.0"/>
+        <p pts="4,64.0,32.0,64.0,0.0,0.0,0.0,0.0,32.0" x="3104.0" y="1600.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,64.0,32.0,64.0,0.0" x="3168.0" y="1568.0"/>
+        <p pts="4,32.0,32.0,32.0,0.0,0.0,0.0,0.0,32.0" x="5792.0" y="1344.0"/>
+        <p pts="6,64.0,0.0,32.0,0.0,32.0,32.0,0.0,32.0,0.0,64.0,64.0,64.0" x="2240.0" y="1376.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,32.0,32.0,32.0,0.0" x="2720.0" y="1888.0"/>
+        <p pts="10,0.0,32.0,32.0,32.0,32.0,64.0,64.0,64.0,64.0,128.0,96.0,128.0,96.0,32.0,64.0,32.0,64.0,0.0,0.0,0.0" x="1280.0" y="1312.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,64.0,32.0,64.0,0.0" x="1056.0" y="1504.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,96.0,32.0,96.0,0.0" x="1696.0" y="1600.0"/>
+        <p pts="4,32.0,0.0,0.0,0.0,0.0,32.0,32.0,32.0" x="2624.0" y="1824.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,64.0,32.0,64.0,0.0" x="5216.0" y="736.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,192.0,32.0,192.0,0.0" x="5984.0" y="1536.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,32.0,32.0,32.0,0.0" x="2848.0" y="1568.0"/>
+        <p pts="6,64.0,32.0,64.0,0.0,0.0,0.0,0.0,64.0,192.0,64.0,192.0,32.0" x="5856.0" y="1856.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,128.0,32.0,128.0,0.0" x="3200.0" y="1632.0"/>
+        <p pts="4,32.0,32.0,32.0,0.0,0.0,0.0,0.0,32.0" x="3232.0" y="1536.0"/>
+        <p pts="4,32.0,0.0,0.0,0.0,0.0,32.0,32.0,32.0" x="2336.0" y="1888.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,32.0,32.0,32.0,0.0" x="2816.0" y="1792.0"/>
+        <p pts="4,0.0,32.0,32.0,32.0,32.0,0.0,0.0,0.0" x="1088.0" y="1696.0"/>
+        <p pts="4,96.0,32.0,96.0,0.0,0.0,0.0,0.0,32.0" x="1952.0" y="1504.0"/>
+        <p pts="4,32.0,64.0,32.0,0.0,0.0,0.0,0.0,64.0" x="2912.0" y="1728.0"/>
+        <p pts="4,96.0,32.0,96.0,0.0,0.0,0.0,0.0,32.0" x="5408.0" y="608.0"/>
+        <p pts="4,32.0,0.0,0.0,0.0,0.0,32.0,32.0,32.0" x="1120.0" y="1728.0"/>
+        <p pts="4,32.0,32.0,32.0,0.0,0.0,0.0,0.0,32.0" x="2432.0" y="1824.0"/>
+        <p pts="4,64.0,0.0,0.0,0.0,0.0,32.0,64.0,32.0" x="5344.0" y="640.0"/>
+        <p pts="6,64.0,0.0,0.0,0.0,0.0,64.0,32.0,64.0,32.0,32.0,64.0,32.0" x="5280.0" y="672.0"/>
+        <p pts="4,32.0,32.0,32.0,0.0,0.0,0.0,0.0,32.0" x="6016.0" y="1824.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>

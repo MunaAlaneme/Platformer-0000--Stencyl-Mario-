@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="0" y="0">
+                    <group eventID="1" id="-1"/>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <control eid="0" id="1"/>
+                    </keystate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="1">
+        <push-shove2 comment="false" x="302" y="254">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="1"/>
+            <int id="2" val="270"/>
+            <int id="3" val="33"/>
+        </push-shove2>
+    </group>
+    <group eventID="1" id="-1">
+        <keystate comment="false" x="1065" y="208">
+            <int id="0" val="1"/>
+            <control id="1"/>
+        </keystate>
+        <get-dxy comment="false" x="959" y="257">
+            <ACTOR id="0"/>
+            <int id="1" val="1"/>
+        </get-dxy>
+        <collision-bottom comment="false" x="1039" y="344">
+            <int id="0" val="0"/>
+            <int id="1" val="0"/>
+        </collision-bottom>
+        <collision-type2 comment="false" x="850" y="411">
+            <int id="0" val="0"/>
+            <int id="1" val="0"/>
+            <int id="2" val="1"/>
+        </collision-type2>
+    </group>
+    <group eventID="2" id="0">
+        <init comment="false" x="212" y="82">
+            <group eventID="2" id="-1"/>
+        </init>
+    </group>
+</groups>

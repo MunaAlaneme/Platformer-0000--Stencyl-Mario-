@@ -1,0 +1,17 @@
+#
+#Sun Jun 09 15:23:59 AST 2024
+alphabet=
+antialias=true
+chars=all
+color=\#fff000
+family=Dosis-Bold.ttf
+gradient.color=\#00ffff
+gradient.offset=0
+shadow.blur=0
+shadow.color=\#000000
+shadow.x=0
+shadow.y=0
+size=64
+stroke.color=\#000fff
+stroke.size=3
+style=plain

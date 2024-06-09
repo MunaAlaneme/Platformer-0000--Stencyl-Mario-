@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <anchor-screen comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                </anchor-screen>
+            </group>
+        </init>
+    </group>
+    <group eventID="3" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-windowscale comment="false" x="0" y="0">
+                    <div comment="false" id="0" x="0" y="0">
+                        <randint comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                            <int id="1" val="6"/>
+                        </randint>
+                        <int id="1" val="4"/>
+                    </div>
+                </set-windowscale>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+</groups>

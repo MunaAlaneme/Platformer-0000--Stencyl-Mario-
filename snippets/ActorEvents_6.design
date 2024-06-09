@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <step comment="false" x="59" y="325">
+            <group eventID="1" id="-1">
+                <set-val-1-19 comment="false" x="0" y="0">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-val-1-19 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </plus>
+                </set-val-1-19>
+                <set-game-val-6 comment="false" x="0" y="0">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </plus>
+                </set-game-val-6>
+                <set-val-1-20 comment="false" x="0" y="0">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <code-short comment="false" id="0" x="0" y="0">
+                            <int id="0" val="haxe.Timer.stamp()"/>
+                        </code-short>
+                        <get-val-1-23 comment="false" id="1" x="0" y="0"/>
+                    </minus>
+                </set-val-1-20>
+                <set-game-val-3 comment="false" x="0" y="0">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <code-short comment="false" id="0" x="0" y="0">
+                            <int id="0" val="haxe.Timer.stamp()"/>
+                        </code-short>
+                        <get-game-val-2 comment="false" id="1" x="0" y="0"/>
+                    </minus>
+                </set-game-val-3>
+                <set-val-1-21 comment="false" x="0" y="0">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-val-1-20 comment="false" id="0" x="0" y="0"/>
+                        <get-val-1-22 comment="false" id="1" x="0" y="0"/>
+                    </minus>
+                </set-val-1-21>
+                <set-game-val-4 comment="false" x="0" y="0">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                    </minus>
+                </set-game-val-4>
+                <set-val-1-22 comment="false" x="0" y="0">
+                    <get-val-1-20 comment="false" id="0" x="0" y="0"/>
+                </set-val-1-22>
+                <set-game-val-5 comment="false" x="0" y="0">
+                    <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                </set-game-val-5>
+                <if comment="false" x="0" y="0">
+                    <group eventID="1" id="-1">
+                        <set-val-1-17 comment="false" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </set-val-1-17>
+                        <set-val-1-25 comment="false" x="0" y="0">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-1-25>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <and comment="false" id="0" x="0" y="0">
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-1-25 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                            <and comment="false" id="1" x="0" y="0">
+                                <isalive comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </isalive>
+                                <eq comment="false" id="1" x="0" y="0">
+                                    <get-val-1-17 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                </eq>
+                            </and>
+                        </and>
+                        <more comment="false" id="1" x="0" y="0">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-xy>
+                                <get-wh comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-wh>
+                            </plus>
+                            <scene-wh comment="false" id="1" x="0" y="0">
+                                <int id="0" val="1"/>
+                            </scene-wh>
+                        </more>
+                    </and>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="0">
+        <init comment="false" x="212" y="82">
+            <group eventID="2" id="-1">
+                <set-game-val-0 comment="false" x="0" y="0">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-0>
+                <set-val-1-25 comment="false" x="0" y="0">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-1-25>
+                <set-game-val-2 comment="false" x="0" y="0">
+                    <code-short comment="false" id="0" x="0" y="0">
+                        <int id="0" val="haxe.Timer.stamp()"/>
+                    </code-short>
+                </set-game-val-2>
+                <set-val-1-23 comment="false" x="0" y="0">
+                    <code-short comment="false" id="0" x="0" y="0">
+                        <int id="0" val="haxe.Timer.stamp()"/>
+                    </code-short>
+                </set-val-1-23>
+                <set-game-val-3 comment="false" x="0" y="0">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <code-short comment="false" id="0" x="0" y="0">
+                            <int id="0" val="haxe.Timer.stamp()"/>
+                        </code-short>
+                        <get-game-val-2 comment="false" id="1" x="0" y="0"/>
+                    </minus>
+                </set-game-val-3>
+                <set-val-1-20 comment="false" x="0" y="0">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <code-short comment="false" id="0" x="0" y="0">
+                            <int id="0" val="haxe.Timer.stamp()"/>
+                        </code-short>
+                        <get-val-1-23 comment="false" id="1" x="0" y="0"/>
+                    </minus>
+                </set-val-1-20>
+                <set-game-val-4 comment="false" x="0" y="0">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                    </minus>
+                </set-game-val-4>
+                <set-val-1-21 comment="false" x="0" y="0">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-val-1-20 comment="false" id="0" x="0" y="0"/>
+                        <get-val-1-22 comment="false" id="1" x="0" y="0"/>
+                    </minus>
+                </set-val-1-21>
+                <set-game-val-5 comment="false" x="0" y="0">
+                    <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                </set-game-val-5>
+                <set-val-1-22 comment="false" x="0" y="0">
+                    <get-val-1-20 comment="false" id="0" x="0" y="0"/>
+                </set-val-1-22>
+                <set-game-val-6 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-game-val-6>
+                <set-val-1-19 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-val-1-19>
+                <set-val-1-17 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-val-1-17>
+                <ignore-screen-tolerance2 comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                </ignore-screen-tolerance2>
+            </group>
+        </init>
+    </group>
+    <group eventID="5" id="0">
+        <event-att-bool comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <set-game-val-0 comment="false" x="0" y="0">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-0>
+                <set-val-1-25 comment="false" x="0" y="0">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-1-25>
+                <set-val-1-7 comment="false" x="0" y="0">
+                    <int id="0" val="270"/>
+                </set-val-1-7>
+                <set-val-1-9 comment="false" x="0" y="0">
+                    <int id="0" val="75"/>
+                </set-val-1-9>
+                <set-val-1-10 comment="false" x="0" y="0">
+                    <int id="0" val="100"/>
+                </set-val-1-10>
+                <set-val-1-11 comment="false" x="0" y="0">
+                    <int id="0" val="360"/>
+                </set-val-1-11>
+                <setanim comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Dead"/>
+                </setanim>
+                <set-val-1-8 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                </set-val-1-8>
+                <set-xy comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="2"/>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="2"/>
+                            </get-xy>
+                            <get-wh comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="2"/>
+                            </get-wh>
+                        </minus>
+                        <times comment="false" id="1" x="0" y="0">
+                            <get-val-1-8 comment="false" id="0" x="0" y="0"/>
+                            <trig-master comment="false" id="1" x="0" y="0">
+                                <int id="0" val="1"/>
+                                <to-degreesradians comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                    <get-val-1-7 comment="false" id="1" x="0" y="0"/>
+                                </to-degreesradians>
+                                <int id="2" val="1"/>
+                            </trig-master>
+                        </times>
+                    </plus>
+                </set-xy>
+                <set-xy comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="3"/>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="3"/>
+                            </get-xy>
+                            <get-wh comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="3"/>
+                            </get-wh>
+                        </minus>
+                        <times comment="false" id="1" x="0" y="0">
+                            <get-val-1-8 comment="false" id="0" x="0" y="0"/>
+                            <trig-master comment="false" id="1" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <to-degreesradians comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                    <get-val-1-7 comment="false" id="1" x="0" y="0"/>
+                                </to-degreesradians>
+                                <int id="2" val="1"/>
+                            </trig-master>
+                        </times>
+                    </plus>
+                </set-xy>
+                <push-shove2 comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <get-val-1-7 comment="false" id="2" x="0" y="0"/>
+                    <plus comment="false" id="3" x="0" y="0">
+                        <get-val-1-9 comment="false" id="0" x="0" y="0"/>
+                        <times comment="false" id="1" x="0" y="0">
+                            <random comment="false" id="0" x="0" y="0"/>
+                            <get-val-1-10 comment="false" id="1" x="0" y="0"/>
+                        </times>
+                    </plus>
+                </push-shove2>
+                <setav comment="false" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <plus comment="false" id="1" x="0" y="0">
+                        <neg comment="false" id="0" x="0" y="0">
+                            <get-val-1-11 comment="false" id="0" x="0" y="0"/>
+                        </neg>
+                        <times comment="false" id="1" x="0" y="0">
+                            <times comment="false" id="0" x="0" y="0">
+                                <random comment="false" id="0" x="0" y="0"/>
+                                <get-val-1-11 comment="false" id="1" x="0" y="0"/>
+                            </times>
+                            <int id="1" val="2"/>
+                        </times>
+                    </plus>
+                </setav>
+                <set-val-1-24 comment="false" x="0" y="0">
+                    <get-val-1-20 comment="false" id="0" x="0" y="0"/>
+                </set-val-1-24>
+                <play-sound4 comment="false" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <sound eid="16" id="1"/>
+                </play-sound4>
+                <dolater comment="false" x="0" y="0">
+                    <group eventID="5" id="-1">
+                        <die comment="false" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <int id="0" val="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="25"/>
+            <true comment="false" id="1" x="0" y="0"/>
+        </event-att-bool>
+    </group>
+    <group eventID="6" id="0">
+        <event-actor-create-kill comment="false" x="15" y="15">
+            <group eventID="6" id="-1">
+                <set-val-1-16 comment="false" x="0" y="0">
+                    <int id="0" val="Fade"/>
+                </set-val-1-16>
+                <set-val-1-14 comment="false" x="0" y="0">
+                    <int id="0" val="0.5"/>
+                </set-val-1-14>
+                <set-val-1-15 comment="false" x="0" y="0">
+                    <int id="0" val="0.5"/>
+                </set-val-1-15>
+                <if comment="false" x="0" y="0">
+                    <group eventID="6" id="-1">
+                        <if comment="false" x="0" y="0">
+                            <group eventID="6" id="-1">
+                                <scene-reload-color comment="false" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <get-val-1-14 comment="false" id="1" x="0" y="0"/>
+                                    <color b="0" g="0" id="2" r="0"/>
+                                    <int id="3" val="0"/>
+                                    <get-val-1-15 comment="false" id="4" x="0" y="0"/>
+                                    <color b="0" g="0" id="5" r="0"/>
+                                </scene-reload-color>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-1-16 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Fade"/>
+                            </eq>
+                        </if>
+                        <else-if comment="false" x="0" y="0">
+                            <group eventID="6" id="-1">
+                                <scene-reload-color comment="false" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                    <get-val-1-14 comment="false" id="1" x="0" y="0"/>
+                                    <color b="0" g="0" id="2" r="0"/>
+                                    <int id="3" val="1"/>
+                                    <get-val-1-15 comment="false" id="4" x="0" y="0"/>
+                                    <color b="0" g="0" id="5" r="0"/>
+                                </scene-reload-color>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-1-16 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Blinds"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="0" y="0">
+                            <group eventID="6" id="-1">
+                                <scene-reload-color comment="false" x="0" y="0">
+                                    <int id="0" val="2"/>
+                                    <get-val-1-14 comment="false" id="1" x="0" y="0"/>
+                                    <color b="0" g="0" id="2" r="0"/>
+                                    <int id="3" val="2"/>
+                                    <get-val-1-15 comment="false" id="4" x="0" y="0"/>
+                                    <color b="0" g="0" id="5" r="0"/>
+                                </scene-reload-color>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-1-16 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Bubbles"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="0" y="0">
+                            <group eventID="6" id="-1">
+                                <scene-reload-color comment="false" x="0" y="0">
+                                    <int id="0" val="3"/>
+                                    <get-val-1-14 comment="false" id="1" x="0" y="0"/>
+                                    <color b="0" g="0" id="2" r="0"/>
+                                    <int id="3" val="3"/>
+                                    <get-val-1-15 comment="false" id="4" x="0" y="0"/>
+                                    <color b="0" g="0" id="5" r="0"/>
+                                </scene-reload-color>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-1-16 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Spotlight"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="0" y="0">
+                            <group eventID="6" id="-1">
+                                <scene-reload-color comment="false" x="0" y="0">
+                                    <int id="0" val="4"/>
+                                    <get-val-1-14 comment="false" id="1" x="0" y="0"/>
+                                    <color b="0" g="0" id="2" r="0"/>
+                                    <int id="3" val="4"/>
+                                    <get-val-1-15 comment="false" id="4" x="0" y="0"/>
+                                    <color b="0" g="0" id="5" r="0"/>
+                                </scene-reload-color>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-1-16 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Blur"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="0" y="0">
+                            <group eventID="6" id="-1">
+                                <scene-reload-color comment="false" x="0" y="0">
+                                    <int id="0" val="5"/>
+                                    <get-val-1-14 comment="false" id="1" x="0" y="0"/>
+                                    <color b="0" g="0" id="2" r="0"/>
+                                    <int id="3" val="5"/>
+                                    <get-val-1-15 comment="false" id="4" x="0" y="0"/>
+                                    <color b="0" g="0" id="5" r="0"/>
+                                </scene-reload-color>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-1-16 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Box"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="0" y="0">
+                            <group eventID="6" id="-1">
+                                <scene-reload-through comment="false" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <get-val-1-14 comment="false" id="1" x="0" y="0"/>
+                                </scene-reload-through>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-1-16 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Crossfade"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="0" y="0">
+                            <group eventID="6" id="-1">
+                                <scene-reload-through comment="false" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                    <get-val-1-14 comment="false" id="1" x="0" y="0"/>
+                                </scene-reload-through>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-1-16 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Slide Up"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="0" y="0">
+                            <group eventID="6" id="-1">
+                                <scene-reload-through comment="false" x="0" y="0">
+                                    <int id="0" val="2"/>
+                                    <get-val-1-14 comment="false" id="1" x="0" y="0"/>
+                                </scene-reload-through>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-1-16 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Slide Down"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="0" y="0">
+                            <group eventID="6" id="-1">
+                                <scene-reload-through comment="false" x="0" y="0">
+                                    <int id="0" val="3"/>
+                                    <get-val-1-14 comment="false" id="1" x="0" y="0"/>
+                                </scene-reload-through>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-1-16 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Slide Left"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="0" y="0">
+                            <group eventID="6" id="-1">
+                                <scene-reload-through comment="false" x="0" y="0">
+                                    <int id="0" val="4"/>
+                                    <get-val-1-14 comment="false" id="1" x="0" y="0"/>
+                                </scene-reload-through>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-1-16 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="Slide Right"/>
+                            </eq>
+                        </else-if>
+                        <dolater comment="false" x="0" y="0">
+                            <group eventID="6" id="-1">
+                                <set-val-1-25 comment="false" x="0" y="0">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-1-25>
+                                <set-game-val-0 comment="false" x="0" y="0">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-0>
+                                <set-val-1-17 comment="false" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </set-val-1-17>
+                            </group>
+                            <get-val-1-14 comment="false" id="0" x="0" y="0"/>
+                        </dolater>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <is-transitioning comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+                <else comment="false" x="0" y="0">
+                    <group eventID="6" id="-1">
+                        <set-val-1-25 comment="false" x="0" y="0">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-1-25>
+                        <set-game-val-0 comment="false" x="0" y="0">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-0>
+                        <scene-reload-through comment="false" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <int id="1" val="0"/>
+                        </scene-reload-through>
+                    </group>
+                </else>
+            </group>
+            <int id="0" val="1"/>
+            <ACTOR eid="this" id="1"/>
+        </event-actor-create-kill>
+    </group>
+</groups>

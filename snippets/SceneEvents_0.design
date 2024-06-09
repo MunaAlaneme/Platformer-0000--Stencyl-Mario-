@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups format="1">
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-game-att-save comment="false" x="0" y="0">
+                    <int id="0" val="Coins"/>
+                    <int id="1" val="0"/>
+                </set-game-att-save>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <camera-follow comment="false" x="0" y="0">
+                    <ACTOR eid="1" id="0"/>
+                </camera-follow>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-alpha comment="false" x="0" y="0">
+                    <int id="0" val="100"/>
+                </set-alpha>
+                <set-stroke-color comment="false" x="0" y="0">
+                    <color b="255" g="255" id="0" r="255"/>
+                </set-stroke-color>
+                <set-thickness comment="false" x="0" y="0">
+                    <int id="0" val="2"/>
+                </set-thickness>
+                <set-color comment="false" x="0" y="0">
+                    <color b="0" g="0" id="0" r="0"/>
+                </set-color>
+                <set-font-new comment="false" x="0" y="0">
+                    <font eid="3" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="0" y="0">
+                    <int id="0" val="Use arrow keys to move."/>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <int id="0" val="100"/>
+                        <screen-xy comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </screen-xy>
+                    </minus>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <int id="0" val="100"/>
+                            <screen-xy comment="false" id="1" x="0" y="0">
+                                <int id="0" val="1"/>
+                            </screen-xy>
+                        </minus>
+                        <int id="1" val="-1200"/>
+                    </minus>
+                </draw-text>
+                <draw-text comment="false" x="0" y="0">
+                    <int id="0" val="Up arrow key to jump."/>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <int id="0" val="100"/>
+                        <screen-xy comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </screen-xy>
+                    </minus>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <int id="0" val="150"/>
+                            <screen-xy comment="false" id="1" x="0" y="0">
+                                <int id="0" val="1"/>
+                            </screen-xy>
+                        </minus>
+                        <int id="1" val="-1200"/>
+                    </minus>
+                </draw-text>
+                <set-font-new comment="false" x="0" y="0">
+                    <font eid="8" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="0" y="0">
+                    <int id="0" val="Hold up key to jump higher."/>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <int id="0" val="100"/>
+                        <screen-xy comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </screen-xy>
+                    </minus>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <int id="0" val="200"/>
+                            <screen-xy comment="false" id="1" x="0" y="0">
+                                <int id="0" val="1"/>
+                            </screen-xy>
+                        </minus>
+                        <int id="1" val="-1200"/>
+                    </minus>
+                </draw-text>
+                <set-font-new comment="false" x="0" y="0">
+                    <font eid="32" id="0"/>
+                </set-font-new>
+                <set-stroke-color comment="false" x="0" y="0">
+                    <color b="0" g="200" id="0" r="255"/>
+                </set-stroke-color>
+                <set-thickness comment="false" x="0" y="0">
+                    <int id="0" val="10"/>
+                </set-thickness>
+                <set-color comment="false" x="0" y="0">
+                    <color b="0" g="153" id="0" r="153"/>
+                </set-color>
+                <draw-text comment="false" x="0" y="0">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <int id="0" val="x "/>
+                        <get-game-val-1 comment="false" id="1" x="0" y="0"/>
+                    </str-combine>
+                    <int id="1" val="64"/>
+                    <int id="2" val="48"/>
+                </draw-text>
+                <if comment="false" x="0" y="0">
+                    <group eventID="3" id="-1">
+                        <set-stroke-color comment="false" x="0" y="0">
+                            <color b="0" g="0" id="0" r="0"/>
+                        </set-stroke-color>
+                        <set-color comment="false" x="0" y="0">
+                            <color b="0" g="0" id="0" r="0"/>
+                        </set-color>
+                        <set-alpha comment="false" x="0" y="0">
+                            <int id="0" val="20"/>
+                        </set-alpha>
+                    </group>
+                    <is-in-region comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="1" id="0"/>
+                        <REGION eid="0" id="1"/>
+                    </is-in-region>
+                </if>
+                <else comment="false" x="0" y="0">
+                    <group eventID="3" id="-1">
+                        <set-stroke-color comment="false" x="0" y="0">
+                            <color b="0" g="0" id="0" r="0"/>
+                        </set-stroke-color>
+                        <set-color comment="false" x="0" y="0">
+                            <color b="0" g="0" id="0" r="0"/>
+                        </set-color>
+                        <set-alpha comment="false" x="0" y="0">
+                            <int id="0" val="100"/>
+                        </set-alpha>
+                    </group>
+                </else>
+                <drawfill-rect comment="false" x="0" y="0">
+                    <int id="0" val="1"/>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <int id="0" val="1057"/>
+                        <screen-xy comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </screen-xy>
+                    </minus>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <int id="0" val="1529"/>
+                        <screen-xy comment="false" id="1" x="0" y="0">
+                            <int id="0" val="1"/>
+                        </screen-xy>
+                    </minus>
+                    <int id="3" val="348"/>
+                    <int id="4" val="262"/>
+                </drawfill-rect>
+            </group>
+        </draw>
+    </group>
+</groups>
