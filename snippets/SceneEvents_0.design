@@ -14,7 +14,7 @@
         <step comment="false" x="15" y="15">
             <group eventID="2" id="-1">
                 <camera-follow comment="false" x="0" y="0">
-                    <ACTOR eid="1" id="0"/>
+                    <ACTOR eid="125" id="0"/>
                 </camera-follow>
             </group>
         </step>
@@ -127,7 +127,7 @@
                         </set-alpha>
                     </group>
                     <is-in-region comment="false" id="0" x="0" y="0">
-                        <ACTOR eid="1" id="0"/>
+                        <ACTOR eid="125" id="0"/>
                         <REGION eid="0" id="1"/>
                     </is-in-region>
                 </if>

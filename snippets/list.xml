@@ -105,16 +105,6 @@
             id="5"
             name="_ScrollSpeed"
             order="4"/>
-        <actortype
-            default=""
-            defaultValue=""
-            desc="The actor type of the fragments to create.&lt;br/&gt;&#10;Make sure the actor type of the fragments doesn&apos;t collide with this actor."
-            dropdown=""
-            fullname="Fragment Actor Type"
-            hidden="false"
-            id="6"
-            name="_FragmentActorType"
-            order="5"/>
         <number
             default="0.0"
             defaultValue="0.0"
@@ -175,16 +165,6 @@
             id="12"
             name="_NumberofFragments"
             order="11"/>
-        <actortype
-            default=""
-            defaultValue=""
-            desc="The actor type of the explosion to create.&lt;br/&gt;&#10;Make sure the actor type of the explosion doesn&apos;t collide with this actor."
-            dropdown=""
-            fullname="Explosion Actor Type"
-            hidden="false"
-            id="13"
-            name="_ExplosionActorType"
-            order="12"/>
         <number
             default="0.5"
             defaultValue="0.5"
@@ -305,6 +285,196 @@
             id="25"
             name="_PlayerDead"
             order="24"/>
+        <boolean
+            default="false"
+            defaultValue="false"
+            desc=""
+            dropdown=""
+            fullname="Jumping"
+            hidden="true"
+            id="26"
+            name="_Jumping"
+            order="25"/>
+        <boolean
+            default="false"
+            defaultValue="false"
+            desc=""
+            dropdown=""
+            fullname="On Ground"
+            hidden="true"
+            id="27"
+            name="_OnGround"
+            order="26"/>
+        <boolean
+            default="false"
+            defaultValue="false"
+            desc=""
+            dropdown=""
+            fullname="Was Jump"
+            hidden="true"
+            id="28"
+            name="_WasJump"
+            order="27"/>
+        <text
+            default=""
+            defaultValue=""
+            desc=""
+            dropdown=""
+            fullname="🙂Jump"
+            hidden="true"
+            id="29"
+            name="_Jump2"
+            order="28"/>
+        <number
+            default="0.0"
+            defaultValue="0.0"
+            desc=""
+            dropdown=""
+            fullname="Move"
+            hidden="true"
+            id="30"
+            name="_Move"
+            order="29"/>
+        <number
+            default="20.0"
+            defaultValue="20.0"
+            desc="The force used for running."
+            dropdown=""
+            fullname="Running Force"
+            hidden="false"
+            id="31"
+            name="_RunningForce"
+            order="30"/>
+        <number
+            default="30.0"
+            defaultValue="30.0"
+            desc="The maximum speed at which the actor can run."
+            dropdown=""
+            fullname="Maximum Running Speed"
+            hidden="false"
+            id="32"
+            name="_MaximumRunningSpeed"
+            order="31"/>
+        <number
+            default="30.0"
+            defaultValue="30.0"
+            desc="The force used for jumping."
+            dropdown=""
+            fullname="Jumping Force"
+            hidden="false"
+            id="33"
+            name="_JumpingForce"
+            order="32"/>
+        <boolean
+            default="false"
+            defaultValue="false"
+            desc=""
+            dropdown=""
+            fullname="Jump Higher"
+            hidden="true"
+            id="34"
+            name="_JumpHigher"
+            order="33"/>
+        <number
+            default="0.2"
+            defaultValue="0.2"
+            desc="Holding down the jump key longer than this will not make the actor jump higher. Only used if &lt;var&gt;Variable Jump&lt;/var&gt; is selected."
+            dropdown=""
+            fullname="Variable Jump Duration"
+            hidden="false"
+            id="35"
+            name="_VariableJumpDuration"
+            order="34"/>
+        <boolean
+            default="true"
+            defaultValue="true"
+            desc="If selected, the jumping height will depend on how long the &lt;var&gt;Jump&lt;/var&gt; key is pressed."
+            dropdown=""
+            fullname="Variable Jump"
+            hidden="false"
+            id="36"
+            name="_VariableJump"
+            order="35"/>
+        <boolean
+            default="false"
+            defaultValue="false"
+            desc=""
+            dropdown=""
+            fullname="Facing Left"
+            hidden="true"
+            id="37"
+            name="_FacingLeft"
+            order="36"/>
+        <animation
+            default="Jump Left"
+            defaultValue="Jump Left"
+            desc=""
+            dropdown=""
+            fullname="Jump Left Animation"
+            hidden="false"
+            id="38"
+            name="_JumpLeftAnimation"
+            order="37"/>
+        <animation
+            default="Jump Right"
+            defaultValue="Jump Right"
+            desc=""
+            dropdown=""
+            fullname="Jump Right Animation"
+            hidden="false"
+            id="39"
+            name="_JumpRightAnimation"
+            order="38"/>
+        <boolean
+            default="true"
+            defaultValue="true"
+            desc="If selected, use the &lt;var&gt;Jump&lt;/var&gt; animations while falling, otherwise use the &lt;var&gt;Idle&lt;/var&gt; animations."
+            dropdown=""
+            fullname="Jump Animation When Falling"
+            hidden="false"
+            id="40"
+            name="_JumpAnimationWhenFalling"
+            order="39"/>
+        <animation
+            default="Walk/Run Left"
+            defaultValue="Walk/Run Left"
+            desc=""
+            dropdown=""
+            fullname="Run Left Animation"
+            hidden="false"
+            id="41"
+            name="_RunLeftAnimation"
+            order="40"/>
+        <animation
+            default="Walk/Run Right"
+            defaultValue="Walk/Run Right"
+            desc=""
+            dropdown=""
+            fullname="Run Right Animation"
+            hidden="false"
+            id="42"
+            name="_RunRightAnimation"
+            order="41"/>
+        <animation
+            default="Idle Left"
+            defaultValue="Idle Left"
+            desc=""
+            dropdown=""
+            fullname="Idle Left Animation"
+            hidden="false"
+            id="43"
+            name="_IdleLeftAnimation"
+            order="42"/>
+        <animation
+            default="Idle Right"
+            defaultValue="Idle Right"
+            desc=""
+            dropdown=""
+            fullname="Idle Right Animation"
+            hidden="false"
+            id="44"
+            name="_IdleRightAnimation"
+            order="43"/>
         <blocks/>
         <events>
             <event
@@ -319,22 +489,43 @@
                 enabled="true"
                 id="2"
                 name="init"
-                order="8"
+                order="10"
                 repeats="true"/>
             <event
                 displayName="Boolean"
                 enabled="true"
                 id="5"
                 name="event-att-bool"
-                order="5"
+                order="7"
                 repeats="false"/>
             <event
                 displayName="Actor Created"
                 enabled="true"
                 id="6"
                 name="event-actor-create-kill"
-                order="4"
+                order="6"
                 repeats="true"/>
+            <event
+                displayName="Actor - Type"
+                enabled="true"
+                id="7"
+                name="event-collide-actortotype"
+                order="2"
+                repeats="true"/>
+            <event
+                displayName="Actor - Any"
+                enabled="true"
+                id="8"
+                name="collide"
+                order="11"
+                repeats="true"/>
+            <event
+                displayName="Actor - Type Copy"
+                enabled="true"
+                id="9"
+                name="event-collide-actortotype"
+                order="3"
+                repeats="false"/>
         </events>
     </snippet>
     <snippet
@@ -2174,7 +2365,7 @@
         </events>
     </snippet>
     <snippet
-        actorid="25"
+        actorid="28"
         attachedevent="true"
         class="scripts.ActorEvents_28"
         classname="scripts.ActorEvents_28"
@@ -2207,7 +2398,7 @@
         </events>
     </snippet>
     <snippet
-        actorid="25"
+        actorid="30"
         attachedevent="true"
         class="scripts.ActorEvents_30"
         classname="scripts.ActorEvents_30"
@@ -2236,6 +2427,120 @@
                 id="6"
                 name="event-collide-actortotype"
                 order="6"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="33"
+        attachedevent="true"
+        class="scripts.ActorEvents_33"
+        classname="scripts.ActorEvents_33"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="25"
+        name="ActorEvents_33"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <number
+            default="30.0"
+            defaultValue="30.0"
+            desc="The force used for jumping."
+            dropdown=""
+            fullname="Jumping Force"
+            hidden="false"
+            id="1"
+            name="_JumpingForce"
+            order="0"/>
+        <blocks/>
+        <events>
+            <event
+                displayName="Actor - Type"
+                enabled="true"
+                id="1"
+                name="event-collide-actortotype"
+                order="1"
+                repeats="true"/>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="2"
+                name="step"
+                order="4"
+                repeats="true"/>
+            <event
+                displayName="Actor - Type Copy"
+                enabled="true"
+                id="3"
+                name="event-collide-actortotype"
+                order="2"
+                repeats="true"/>
+            <event
+                displayName="Actor - Type Copy Copy"
+                enabled="true"
+                id="4"
+                name="event-collide-actortotype"
+                order="3"
+                repeats="true"/>
+        </events>
+    </snippet>
+    <snippet
+        actorid="33"
+        attachedevent="true"
+        class="scripts.ActorEvents_35"
+        classname="scripts.ActorEvents_35"
+        desc="Actor Specific Events"
+        description="Actor Specific Events"
+        design="true"
+        drawOrder="0"
+        id="26"
+        name="ActorEvents_35"
+        oid="-1"
+        package="scripts."
+        shared="false"
+        type="actor">
+        <number
+            default="30.0"
+            defaultValue="30.0"
+            desc="The force used for jumping."
+            dropdown=""
+            fullname="Jumping Force"
+            hidden="false"
+            id="1"
+            name="_JumpingForce"
+            order="0"/>
+        <blocks/>
+        <events>
+            <event
+                displayName="Actor - Type"
+                enabled="true"
+                id="1"
+                name="event-collide-actortotype"
+                order="1"
+                repeats="true"/>
+            <event
+                displayName="Updating"
+                enabled="true"
+                id="2"
+                name="step"
+                order="4"
+                repeats="true"/>
+            <event
+                displayName="Actor - Type Copy"
+                enabled="true"
+                id="3"
+                name="event-collide-actortotype"
+                order="2"
+                repeats="false"/>
+            <event
+                displayName="Actor - Type Copy Copy"
+                enabled="true"
+                id="4"
+                name="event-collide-actortotype"
+                order="3"
                 repeats="true"/>
         </events>
     </snippet>
